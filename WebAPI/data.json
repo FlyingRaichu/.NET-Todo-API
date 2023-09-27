@@ -1,0 +1,23 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Gosho Granatata"
+    },
+    {
+      "Id": 2,
+      "UserName": "Misho Avtomata"
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Gosho Granatata"
+      },
+      "Title": "Play drums",
+      "IsCompleted": true
+    }
+  ]
+}
