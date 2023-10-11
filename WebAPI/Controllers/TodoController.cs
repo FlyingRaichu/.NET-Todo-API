@@ -7,11 +7,11 @@ namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class TodoController : ControllerBase
+public class TodosController : ControllerBase
 {
     private readonly ITodoLogic todoLogic;
 
-    public TodoController(ITodoLogic todoLogic)
+    public TodosController(ITodoLogic todoLogic)
     {
         this.todoLogic = todoLogic;
     }
